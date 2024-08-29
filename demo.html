@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang Web Cơ Bản</title>
+    <style>
+        /* Thêm một số CSS để hình ảnh trông đẹp hơn */
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .image-gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
     <!-- Phần Tiêu Đề -->
@@ -28,6 +41,15 @@
             </ul>
         </section>
 
+        <!-- Phần Hình Ảnh Yêu Thích -->
+        <section>
+            <h2>Hình Ảnh Yêu Thích Của Tôi</h2>
+            <div class="image-gallery">
+                <img src="https://preview.redd.it/2g3w9uf0hfk61.jpg?width=1920&format=pjpg&auto=webp&s=2bcddf7b186534fa06fc2f4d895af6bc938ba348" alt="Ảnh 1">
+                <img src="https://wallpapercave.com/wp/wp6011793.jpg" alt="Ảnh 2">
+                <img src="https://wallpapercave.com/wp/wp8148977.png" alt="Ảnh 3">
+            </div>
+        </section>
     </main>
 
     <!-- Phần Chân Trang -->
